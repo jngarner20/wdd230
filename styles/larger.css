@@ -1,0 +1,12 @@
+@media only screen and (max-width: 768px) 
+
+    #learningactivities.card 
+        grid-column: 1/2;    
+        grid-row: 2/5;
+        }
+    
+    #information.card 
+            grid-column: 2/3;
+            grid-row: 2/5;
+        }
+}

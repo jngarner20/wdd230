@@ -1,0 +1,36 @@
+
+
+#headshot {
+    height: 200px;
+}
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 70px auto 100px;
+}
+
+header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+} 
+main {
+    grid-row:3/4;
+}
+
+nav {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+section#learningactivities.card {
+    grid-column:1/3;
+    grid-row: 1/2;
+}
+section#information.card{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+footer{
+    grid-row:4/5;
+}
