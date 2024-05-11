@@ -1,36 +1,106 @@
 
 
+
+
 #headshot {
-    height: 200px;
+    height: 160px;
 }
-body {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 70px auto 100px;
+
+body{
+    font-family: "Teachers", sans-serif;
+    color: rgb(44, 44, 44);
+    margin: 0px;
+    min-height: 100%;
 }
 
 header {
-    grid-column: 1/3;
-    grid-row: 1/2;
-} 
+        display: flex;
+        align-items: center;
+        padding:30px;
+        padding-bottom: 15px;
+        background-color: lightpink;
+    }
+
+    header span {
+        font-weight: bold;
+        font-size: 400%;
+        padding: 20px;
+    }
+
 main {
-    grid-row:3/4;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 35px;
 }
 
 nav {
-    grid-column: 1/3;
-    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    justify-content: space-around;
+    background-color: rgb(229, 229, 229);
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(44, 44, 44);
+}
+
+nav a:hover {
+    color: white;
+}
+
+#maincards{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
 }
 
 section#learningactivities.card {
-    grid-column:1/3;
-    grid-row: 1/2;
+    background-color: lightblue;
+    margin: 10px;
 }
-section#information.card{
-    grid-column: 3/4;
-    grid-row: 2/3;
+
+section#information.card {
+    margin: 10px;
+    background-color: lightpink;
 }
-footer{
-    grid-row:4/5;
+h1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+h2 {
+    margin:auto;
+    text-align: center;
+    background-color: lightyellow;
+    padding:10px;
+}
+
+#information p{
+    padding-left:15px;
+    padding-right:15px;
+}
+#learningactivities p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    margin: auto;
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    margin: 5px;
 }
