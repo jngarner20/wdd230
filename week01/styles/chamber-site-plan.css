@@ -12,13 +12,22 @@ body {
     margin: 0px;
     min-height: 100vh;
 }
+p {
+    font-family: "EB Garamond", serif;
+    font-size: 1rem;
+}
+#sitepurpose{
+    width: 50%;
+    margin:auto;
+}
 
 header {
-    display: flex;
+    display: block;
     align-items: center;
     padding: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     background-color: #FFCAD4;
+
 }
 
 header span {
@@ -31,6 +40,7 @@ main {
     margin: auto;
     width: 90%;
     margin-bottom: 35px;
+    margin-top:30px;
 }
 
 nav {
@@ -42,7 +52,8 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left:80px;
+    padding-right:80px;
     width: 100%;
     justify-content: space-around;
     background-color: #E8E8E8;
@@ -67,11 +78,39 @@ nav a:hover {
     background-color: FFCAD4;
     width: 20px;
 }
+#lightpink.colorbox{
+    background-color:#FFCAD4;
+    color:#FFCAD4;
+    border: 1px solid black;
+}
+#lightblue.colorbox {
+    background-color: #B0D0D3;
+    color: #B0D0D3;
+    border: 1px solid black;
+}
+#white.colorbox{
+    color:white;
+    border: 1px solid black;
+}
+#gray.colorbox {
+    background-color: #E8E8E8;
+    color: #E8E8E8;
+    border: 1px solid black;
+}
 
 #maincards {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
+}
+
+header p{
+    margin:0px;
+}
+
+header h1 {
+    margin-bottom:8px;
+    margin-top:0px;
 }
 
 section#learningactivities.card {
@@ -84,7 +123,7 @@ section#information.card {
     background-color: #FFCAD4;
 }
 
-h2 {
+.bluetitle {
     text-align: left;
     background-color: #B0D0D3;
     padding: 10px;
@@ -96,11 +135,18 @@ h2 {
     margin-right: 10px;
 }
 
+h2{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
 h3{
     margin:0;
+    font-size:1rem;
 }
 div {
     border: 2px solid;
+    border-radius:3px;
 }
 .boxes {
     margin: 10px;
@@ -117,7 +163,7 @@ div {
 }
 #details.boxes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 4fr 7fr;
     grid-template-rows: auto;
 }
 
