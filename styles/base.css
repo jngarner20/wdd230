@@ -18,7 +18,7 @@ header {
         align-items: center;
         padding:30px;
         padding-bottom: 15px;
-        background-color: lightpink;
+        background-color: #FFCAD4;
     }
 
     header span {
@@ -44,7 +44,7 @@ nav ul {
     padding: 0;
     width:100%;
     justify-content: space-around;
-    background-color: rgb(229, 229, 229);
+    background-color: #E8E8E8;
 }
 nav li {
     margin: 0 10px;
@@ -67,22 +67,22 @@ nav a:hover {
 }
 
 section#learningactivities.card {
-    background-color: lightblue;
+    background-color: #ecf4f5;
     margin: 10px;
 }
 
 section#information.card {
     margin: 10px;
-    background-color: lightpink;
+    background-color: #ecf4f5;
 }
 h1{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #808080;
     padding-bottom: 5px;
 }
 h2 {
     margin:auto;
     text-align: center;
-    background-color: lightyellow;
+    background-color: #B0D0D3;
     padding:10px;
 }
 
@@ -97,7 +97,7 @@ h2 {
 
 footer {
     margin: auto;
-    background-color: lightpink;
+    background-color: #FFCAD4;
     padding: 20px;
     text-align: center;
 }
