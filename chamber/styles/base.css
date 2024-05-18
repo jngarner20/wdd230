@@ -1,0 +1,70 @@
+
+#hero {
+    height:500px;
+    background-image: url('images/hero.jpg');
+}
+body {
+    font-family: "Teachers", sans-serif;
+    color: rgb(44, 44, 44);
+    margin: 0px;
+    min-height: 100%;
+}
+div{ 
+    margin: auto;
+    width: 90%;
+}
+
+#currentevents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: center;
+    background-color:#FFCAD4;
+    width: 100%;
+}
+#currentevents h2 {
+    background-color:#ecf4f5;
+}
+#currentevent1 {    
+    display: grid;
+    grid-column:1/2;
+}
+#currentevent2 {
+    display: grid;
+    grid-column: 2/3;
+}
+#currentevent3 {
+    display: grid;
+    grid-column: 3/4;
+}
+.eventcard {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+#spotlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.spotlightcard {
+    padding: 20px;
+}
+#spotlight1 {
+    border-right: 1px solid black;
+}
+h2 {
+    text-align: center;
+    grid-column: 1/4;
+    background-color: #B0D0D3;
+    padding: 10px;
+}
+
+footer {
+    margin: auto;
+    background-color: #FFCAD4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
