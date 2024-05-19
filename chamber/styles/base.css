@@ -1,17 +1,49 @@
 
 #hero {
     height:500px;
-    background-image: url('images/hero.jpg');
 }
 body {
     font-family: "Teachers", sans-serif;
     color: rgb(44, 44, 44);
     margin: 0px;
     min-height: 100%;
+    background-image:url("hero.jpg");
 }
 div{ 
     margin: auto;
     width: 90%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+nav li {
+    margin: 0 10px;
+    background-color: #FFCAD4;
+    border-radius: 15px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(44, 44, 44);
+}
+
+nav a:hover {
+    color: white;
 }
 
 #currentevents {
@@ -20,6 +52,12 @@ div{
     position: center;
     background-color:#FFCAD4;
     width: 100%;
+}
+
+header span {
+    background-color: #B0D0D3;
+    padding: 10px;
+    border-radius: 15px;
 }
 #currentevents h2 {
     background-color:#ecf4f5;
