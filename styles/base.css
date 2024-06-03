@@ -60,6 +60,17 @@ nav a:hover {
     color: white;
 }
 
+#templehero {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+#templehero img {
+    height: auto;
+    position: center;
+}
+
 #maincards{
     display: grid;
     grid-template-columns: 2fr 1fr;

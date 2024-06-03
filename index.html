@@ -35,6 +35,13 @@
         <li><a href="#">Form</a></li>
     </ul>
 </nav>
+<div id="templehero">
+<picture>
+    <source id="templeherosmall" media="(max-width:500px )" srcset="images/redlandstemplesmall.webp">
+    <source id="templeherolarge" media="(max-width:1000px )" srcset="images/redlandstemple.webp">
+    <img src="images/redlandstemple.webp" alt="Large Redlands Temple Image" width="100%">
+</picture>
+</div>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div id="maincards">
@@ -58,7 +65,7 @@
         <section class="card" id="information">
             <h2>Information</h2>
             <p>Weather info</p>
-            <p># of Visits to the page</p>
+            <p> Visit Count: <span id="count">0</span></p>
         </section>
         </div>
     </main>

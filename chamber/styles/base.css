@@ -1,28 +1,41 @@
-
-#hero {
-    height:500px;
+#headshot {
+    height: 160px;
 }
+
 body {
     font-family: "Teachers", sans-serif;
     color: rgb(44, 44, 44);
     margin: 0px;
     min-height: 100%;
-    
 }
 
 header {
-    background-image: url("../images/hero.jpg");
-    height: 500px;
-    background-size: 530px 50%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 15px;
+    background-color: #FFCAD4;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 400%;
     padding: 20px;
 }
-header h1 {
-    color: white;
-    text-shadow: 1px 2px #5e5d5d;
+
+p#message {
+    grid-template-rows: 2/3;
+    grid-template-columns: 1/2;
+    text-align: center;
 }
-div{ 
+
+
+main {
     margin: auto;
-    width: 90%;
+    width: 80%;
+    margin-bottom: 35px;
 }
 
 nav {
@@ -37,13 +50,11 @@ nav ul {
     padding: 0;
     width: 100%;
     justify-content: space-around;
-    background-color: transparent;
+    background-color: #E8E8E8;
 }
 
 nav li {
     margin: 0 10px;
-    background-color: #FFCAD4;
-    border-radius: 15px;
 }
 
 nav a {
@@ -57,54 +68,86 @@ nav a:hover {
     color: white;
 }
 
-#currentevents {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: center;
-    background-color:#FFCAD4;
-    width: 100%;
+#picturegrid img{
+    width: 400px;
+}
+#picturegrid img:hover {
+    opacity: 60%;
 }
 
-header span {
-    background-color: #B0D0D3;
-    padding: 10px;
-    border-radius: 15px;
+#leadership img {
+    width:100px;
 }
-#currentevents h2 {
-    background-color:#ecf4f5;
-}
-#currentevent1 {    
-    display: grid;
-    grid-column:1/2;
-}
-#currentevent2 {
-    display: grid;
-    grid-column: 2/3;
-}
-#currentevent3 {
-    display: grid;
-    grid-column: 3/4;
-}
-.eventcard {
-    background-color: white;
-    margin: 20px;
-    padding: 10px;
-}
-#spotlight {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.spotlightcard {
+
+#prospect {
+    border-bottom: 1px solid black;
     padding: 20px;
 }
-#spotlight1 {
-    border-right: 1px solid black;
+#downtown {
+    padding-bottom: 20px;
 }
+
+#chambergrid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+}
+
+#demographics {
+    grid-template-columns:1/2;
+    grid-template-rows:auto;
+}
+
+#leadership {
+    grid-template-columns: 1/2;
+    grid-template-rows: auto;
+}
+
+#attractions {
+    grid-template-columns: 1/2;
+    grid-template-rows: auto;
+}
+
+#events {
+    grid-template-columns: 1/2;
+    grid-template-rows: auto;
+}
+
+#events section{
+    border-bottom: 1px solid black;
+}
+
+#picturegrid img {
+    grid-template-columns: 2/3;
+    grid-template-rows: auto;
+    padding:20px;
+    padding-top:0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+}
+
 h2 {
+    margin: auto;
     text-align: center;
-    grid-column: 1/4;
     background-color: #B0D0D3;
     padding: 10px;
+}
+
+#information p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#learningactivities p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 footer {
@@ -116,4 +159,13 @@ footer {
 
 footer p {
     margin: 5px;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
 }

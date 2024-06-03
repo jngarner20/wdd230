@@ -49,3 +49,24 @@ modeButton.addEventListener("click", () => {
     modeButton.textContent = "🕶️";
   }
 });
+
+function getVisitCount() {
+  //get the visit count from localstorage
+  let count = localStorage.getItem("visitCount");
+
+  if (count) {
+    //increment the count, same thing as count = count+1
+    count++;
+  } else {
+    //if there is no count in localStorage, set it to 1
+    count = 1;
+  }
+
+  //store the new count in localStorage
+  localStorage.setItem("visitCount", count);
+
+  return count;
+}
+
+let visitCount = getVisitCount();
+document.querySelector("#count").textContent = visitCount;
