@@ -64,11 +64,22 @@ nav a:hover {
     width: 100%;
     height: 400px;
     overflow: hidden;
-
 }
 #templehero img {
     height: auto;
     position: center;
+}
+
+#herolabel {
+    position: absolute;
+    top: 285px;
+    left: 50px;
+    background:rgb(255, 255, 255, .5);
+    padding: 1.5rem;
+}
+
+.map {
+    margin-top:30px;
 }
 
 #maincards{

@@ -13,6 +13,12 @@
   #headshot {
     height: 120px;
   }
+
+  #herolabel{
+    top:400px;
+    right: 50px;
+    text-align: center;
+  }
   #maincards {
     grid-template-columns: 1fr;
   }
