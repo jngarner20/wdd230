@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="mode">
+        🕶️
+    </div>
+    <header>
+        <img src="images/headshot.webp" alt="Jessica Garner Headshot" id="headshot">
+        <span>Jessica Garner</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://jngarner20.github.io/wdd230/index.html">Home</a></li>
+            <li><a href="https://jngarner20.github.io/wdd230/week01/chamber-site-plan.html">Chamber Site Plan</a></li>
+            <li><a href="https://jngarner20.github.io/wdd230/chamber/discover.html">Chamber Site</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Create an Account</h1>
+        <form method="get" action="record.html">
+            <div>
+                <label for="username">Username: 
+                    <input type="text" name="username" id="username" required>
+                </label>
+                <div id="formmessage"></div>
+                <label for="password">Password:
+                    <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" title="Must contain at least 8 characters with no special characters"required>
+                </label>
+                <label for="passwordconfirm">Confirm Password:
+                    <input type="password" name="passwordconfirm" id="passwordconfirm" pattern="[A-Za-z0-9]{8,}"
+                        title="Must match password" required>
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address" required>
+                </label>
+                <label for="rating">Page Rating:
+                    <div id="rangevalue">0</div>
+                    <input type="range" name="rating" id="rating" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0" class="rangenumber">0</option>
+                        <option value="1" class="rangenumber">1</option>
+                        <option value="2" class="rangenumber">2</option>
+                        <option value="3" class="rangenumber">3</option>
+                        <option value="4" class="rangenumber">4</option>
+                        <option value="5" class="rangenumber">5</option>
+                        <option value="6" class="rangenumber">6</option>
+                        <option value="7" class="rangenumber">7</option>
+                        <option value="8" class="rangenumber">8</option>
+                        <option value="9" class="rangenumber">9</option>
+                        <option value="10" class="rangenumber">10</option>
+                    </datalist>
+                </label>
+                <input type="submit" value="Login" id="login">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2024 Jessica Garner Colorado</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>

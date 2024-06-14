@@ -1,6 +1,14 @@
 
 
 
+:root {
+    --main-pink: #FFCAD4; /*var(--main-pink);  */
+    --main-blue: #B0D0D3;/*var(--main-blue);  */
+    --light-blue:#ecf4f5; /*var(--light-blue);  */
+    --main-white: #FFFFFF; /*var(--main-white);  */
+    --light-gray:#E8E8E8; /*var(--light-gray);  */
+    --dark-gray: #808080; /*var(--dark-gray);  */
+}
 
 #headshot {
     height: 160px;
@@ -18,7 +26,7 @@ header {
         align-items: center;
         padding:30px;
         padding-bottom: 15px;
-        background-color: #FFCAD4;
+        background-color: var(--main-pink);
     }
 
     header span {
@@ -44,7 +52,7 @@ nav ul {
     padding: 0;
     width:100%;
     justify-content: space-around;
-    background-color: #E8E8E8;
+    background-color: var(--light-gray);
 }
 nav li {
     margin: 0 10px;
@@ -57,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: var(--main-white);
 }
 
 #templehero {
@@ -89,22 +97,22 @@ nav a:hover {
 }
 
 section#learningactivities.card {
-    background-color: #ecf4f5;
+    background-color: var(--light-blue);
     margin: 10px;
 }
 
 section#information.card {
     margin: 10px;
-    background-color: #ecf4f5;
+    background-color: var(--light-blue);
 }
 h1{
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid var(--dark-gray);
     padding-bottom: 5px;
 }
 h2 {
     margin:auto;
     text-align: center;
-    background-color: #B0D0D3;
+    background-color: var(--main-blue);
     padding:10px;
 }
 
@@ -119,7 +127,7 @@ h2 {
 
 footer {
     margin: auto;
-    background-color: #FFCAD4;
+    background-color: var(--main-pink);;
     padding: 20px;
     text-align: center;
 }
