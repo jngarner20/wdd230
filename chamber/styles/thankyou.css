@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    border:none;
+    color: #8ea8aa;
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+section {
+    margin:85px 0px;
+}
+p {
+    text-align: center;
+}
