@@ -1,0 +1,11 @@
+{
+    "name": "Johnsons",
+    "move-in-date": "2024-01-01",
+    "family-members": 3,
+    "visted-by-bishop": true,
+    "members": [
+        {"name": "John", "gender": "M", "birthdate": "1990-01-01"},
+        {"name": "Jane", "gender": "F", "birthdate": "1995-01-01"},
+        {"name": "Joe", "gender": "M", "birthdate": "2000-01-01"}
+    ]
+}
