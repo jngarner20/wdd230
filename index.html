@@ -79,7 +79,12 @@
         </section>
         <section class="card" id="information">
             <h2>Information</h2>
-            <p>Weather info</p>
+            <p id="weatherTitle">Current Weather:</p>
+            <div id="weatherstring">
+                <img src="" alt="" id="weather-icon">
+                <p id="weathertemp"></p><p id="dash">-</p>
+                <p id="weatherdescription"></p>
+            </div>
             <p> Visit Count: <span id="count">0</span></p>
         </section>
         </div>
@@ -94,6 +99,7 @@
         <p>&copy;2024 Jessica Garner Colorado</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/homepageWeather.js"></script>
     <script src="scripts/getDates.js"></script>
 </body>
 </html>

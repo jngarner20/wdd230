@@ -104,6 +104,18 @@ section#learningactivities.card {
 section#information.card {
     margin: 10px;
     background-color: var(--light-blue);
+    text-align: center;
+}
+#weatherTitle {
+    margin-top:40px;
+}
+
+#weatherstring {
+    display: flex;
+    top:50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom:40px;
 }
 h1{
     border-bottom: 1px solid var(--dark-gray);
