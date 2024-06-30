@@ -12,28 +12,29 @@ async function getMemberData() {
 const displayMembers = (company) => {
   company.forEach((member) => {
     const card = document.createElement("section");
-    const name = document.createElement("p");
+    const name = document.createElement("h3");
     const Address = document.createElement("p");
     const phone = document.createElement("p");
     const website = document.createElement("p");
     const image = document.createElement("img");
     const membership = document.createElement("p");
 
+    card.setAttribute("class", "membercard");
     name.textContent = `${member.name}`;
-    Address.textContent = `Date of Birth: ${prophet.birthdate}`;
-    phone.textContent = `Place of Birth: ${prophet.birthplace}`;
-    image.setAttribute("src", prophet.imageurl);
-    image.setAttribute("alt", `Picture of ${prophet.name} ${prophet.lastname}`);
+    image.setAttribute("href", member.imageurl);
+    image.setAttribute("alt", `Picture of ${member.name}`);
     image.setAttribute("loading", "lazy");
     image.setAttribute("width", "85");
     image.setAttribute("height", "110");
-    membership.textContent = `Place of Birth: ${prophet.birthplace}`;
+    Address.textContent = `Address: ${member.Address}`;
+    phone.textContent = `Phone Number: ${member.phone}`;
+    membership.textContent = `Membership Level: ${member.membership}`;
 
     card.appendChild(name);
+    card.appendChild(image);
     card.appendChild(Address);
     card.appendChild(phone);
     card.appendChild(website);
-    card.appendChild(image);
     card.appendChild(membership);
 
     directory.appendChild(card);
@@ -41,3 +42,24 @@ const displayMembers = (company) => {
 };
 
 getMemberData();
+
+//grid and list toggle buttons
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#directory");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+  // example using arrow function
+  display.classList.add("grid");
+  display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+  display.classList.add("list");
+  display.classList.remove("grid");
+}
