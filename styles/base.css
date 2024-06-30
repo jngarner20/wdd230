@@ -110,6 +110,7 @@ section#information.card {
     margin-top:40px;
 }
 
+
 #weatherstring {
     display: flex;
     top:50%;
@@ -135,6 +136,9 @@ h2 {
 #learningactivities p{
     padding-left: 15px;
     padding-right: 15px;
+}
+#learning {
+    margin:20px;
 }
 
 footer {
