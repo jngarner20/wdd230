@@ -1,0 +1,60 @@
+{
+    "company" : [
+    {
+        "name" : "Caprice Cafe",
+        "Address" : "Caprice Cafe, 104 E State St, Redlands, CA 92373",
+        "phone" : "909-793-8787",
+        "website" : "capricecafe.com",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/caprice.jpg",
+        "membership" : "Non-profit Membership"
+    },
+    "company" : {
+        "name" : "Cheesewalla",
+        "Address" : "5 E Citrus Ave, Redlands, CA 92373",
+        "phone" : "(909) 748-7438",
+        "website" : "places.singleplatform.com",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/cheese.jpg",
+        "membership" : "Gold Membership"
+    },
+    "company" : {
+        "name" : "Crepes of Wrath",
+        "Address" : "31 E Citrus Ave, Redlands, CA 92373",
+        "phone" : "N/A",
+        "website" : "N/A",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/crepes.jpg",
+        "membership" : "Gold Membership"
+    },
+    "company" : {
+        "name" : "Martha Greens",
+        "Address" : "107 E Citrus Ave, Redlands, CA 92373",
+        "phone" : "(909) 792-5400",
+        "website" : "places.singleplatform.com",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/martha.png",
+        "membership" : "Silver Membership"
+    },
+    "company" : {
+        "name" : "Hate Burger",
+        "Address" : "7 N 5th St, Redlands, CA 92373",
+        "phone" : "(909) 206-2647",
+        "website" : "hateburgers.com",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/hate.png",
+        "membership" : "Non-profit Membership"
+    },
+    "company" : {
+        "name" : "Carolyn's Cafe",
+        "Address" : "1150 Brookside Ave A, Redlands, CA 92373",
+        "phone" : "(909) 335-8181",
+        "website" : "N/A",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/carolyns.jpg",
+        "membership" : "Bronze membership"
+    },
+    "company" : {
+        "name" : "Boba Tea House",
+        "Address" : "25696 Barton Rd, Loma Linda, CA 92354",
+        "phone" : "(909) 796-8084",
+        "website" : "bobateahouse.square.site",
+        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/boba.jpg",
+        "membership" : "Gold Membership"
+    }
+]
+}
