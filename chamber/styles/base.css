@@ -231,19 +231,51 @@ label {
 
 /* directory css  */
 
-#directory {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 16px;
     margin-top:20px;
 }
-.membercard {
+.grid .membercard {
     background-color: var(--light-blue);
     padding: 15px;
     border-radius: 5px;
     padding-top:0px;
 }
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+    margin-top:20px
+}
+
+.list .membercard:nth-child(2n) {
+    background-color: var(--light-blue);
+}
+
+.list .membercard {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    grid-gap:15px;
+    padding-top:0px;
+    padding-bottom:0px;
+    align-items: center;
+    padding-left:15px;
+    padding-right:15px;
+}
+.list .membercard p {
+    margin: 0px;
+}
+
+.list .membercard img {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
 
 #toggle {
     width: 100%;
@@ -268,8 +300,8 @@ label {
 }
 .togglebutton:active {
     background-color: var(--main-pink);
-
 }
+
 
 #maindirectory {
     margin-top: 30px;

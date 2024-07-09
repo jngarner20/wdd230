@@ -26,15 +26,15 @@ const displayMembers = (company) => {
     image.setAttribute("loading", "lazy");
     image.setAttribute("width", "85");
     image.setAttribute("height", "110");
-    Address.textContent = `Address: ${member.Address}`;
-    phone.textContent = `Phone Number: ${member.phone}`;
-    membership.textContent = `Membership Level: ${member.membership}`;
+    Address.textContent = `${member.Address}`;
+    phone.textContent = `${member.phone}`;
+    membership.textContent = `${member.membership}`;
 
     card.appendChild(name);
     card.appendChild(image);
     card.appendChild(Address);
     card.appendChild(phone);
-    card.appendChild(website);
+    // card.appendChild(website);
     card.appendChild(membership);
 
     directory.appendChild(card);
@@ -49,7 +49,6 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("#directory");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
   // example using arrow function
