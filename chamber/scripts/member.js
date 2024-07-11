@@ -21,7 +21,7 @@ const displayMembers = (company) => {
 
     card.setAttribute("class", "membercard");
     name.textContent = `${member.name}`;
-    image.setAttribute("href", member.imageurl);
+    image.setAttribute("src", member.imageurl);
     image.setAttribute("alt", `Picture of ${member.name}`);
     image.setAttribute("loading", "lazy");
     image.setAttribute("width", "85");

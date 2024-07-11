@@ -10,7 +10,7 @@ body {
     min-height: 100%;
 }
 
-header {
+ header {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto;
@@ -18,7 +18,7 @@ header {
     padding: 30px;
     padding-bottom: 15px;
     background-color: #FFCAD4;
-}
+} 
 
 header span {
     font-weight: bold;
@@ -69,6 +69,16 @@ nav a:hover {
     color: white;
 }
 
+#weatherstring {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:30%;
+    margin-bottom:15px;
+}
+
+main {
+    margin-top:40px;
+}
 
 
 .bold {
@@ -305,4 +315,40 @@ label {
 
 #maindirectory {
     margin-top: 30px;
+}
+
+
+/* discovery css */
+
+#leadership img {
+    width:300px;
+}
+
+#picturegrid img {
+    width:300px;
+    height:320px;
+    object-fit: cover;
+}
+
+#chambergrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin-top:20px;
+}
+#infocards {
+    display: grid;
+    grid-column: 1/2;
+}
+
+#picturegrid {
+    display: grid;
+    grid-column: 2/3;
+}
+#attractions, #leadership {
+    margin-bottom:20px;
+}
+#events section, #attractions section {
+    margin-bottom:50px;
 }

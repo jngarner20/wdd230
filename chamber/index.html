@@ -17,19 +17,19 @@
         rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="indexheader">
         <!-- <img src="images/hero.jpg" alt="California City Landscape" id="hero"> -->
-        <nav>
-            <ul>
-                <li><a href="https://jngarner20.github.io/wdd230/">Home</a></li>
-                <li><a href="https://jngarner20.github.io/wdd230/week01/chamber-site-plan.html">Chamber Site Plan</a></li>
-                li><a href="https://jngarner20.github.io/wdd230/chamber/discover.html">Chamber Site</a></li>
-                <li><a href="#">Form</a></li>
-            </ul>
-        </nav>
-        <h1>Join the Redlands Chamber of Commerce</h1>
-        <span>Join Now</span>
+        <img src="images/chamberheadshot.jpeg" alt="Jessica Garner Headshot" id="headshot">
+        <span>Jessica Garner</span>
     </header>
+    <nav>
+        <ul>
+            <li><a href="https://jngarner20.github.io/wdd230/">Home</a></li>
+            <li><a href="https://jngarner20.github.io/wdd230/week01/chamber-site-plan.html">Chamber Site Plan</a></li>
+            <li><a href="https://jngarner20.github.io/wdd230/chamber/discover.html">Chamber Site</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
     <main>
         <div id="currentevents">
             <h2>Current Events</h2>
@@ -52,7 +52,13 @@
         </div>
             <div id="weather">
                 <h2>Weather</h2>
-                <p>This is the current weather</p>
+                <h3 id="weatherTitle">Current Weather:</h3>
+                <div id="weatherstring">
+                    <img src="" alt="" id="weather-icon">
+                    <p id="weathertemp"></p>
+                    <p id="dash">-</p>
+                    <p id="weatherdescription"></p>
+                </div>
             </div>
             <div id="spotlight">
                 <h2>Company Spotlight Advertisement</h2>
@@ -71,5 +77,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/chamberWeather.js"></script>
 </body>
 </html>

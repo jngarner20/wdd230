@@ -13,7 +13,7 @@
         "Address" : "5 E Citrus Ave, Redlands, CA 92373",
         "phone" : "(909) 748-7438",
         "website" : "places.singleplatform.com",
-        "imageurl" : "https://jngarner20.github.io/wdd230/chamber/images/cheese.jpg",
+        "imageurl" : "images/cheese.jpg",
         "membership" : "Gold Membership"
     },
     {
@@ -21,7 +21,7 @@
         "Address" : "31 E Citrus Ave, Redlands, CA 92373",
         "phone" : "N/A",
         "website" : "N/A",
-        "imageurl" : "wdd230/chamber/images/crepes.jpg",
+        "imageurl" : "images/crepes.jpg",
         "membership" : "Gold Membership"
     },
     {
@@ -29,7 +29,7 @@
         "Address" : "107 E Citrus Ave, Redlands, CA 92373",
         "phone" : "(909) 792-5400",
         "website" : "places.singleplatform.com",
-        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/martha.png",
+        "imageurl" : "images/martha.png",
         "membership" : "Silver Membership"
     },
     {
@@ -37,7 +37,7 @@
         "Address" : "7 N 5th St, Redlands, CA 92373",
         "phone" : "(909) 206-2647",
         "website" : "hateburgers.com",
-        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/hate.png",
+        "imageurl" : "images/hate.png",
         "membership" : "Non-profit Membership"
     },
     {
@@ -45,7 +45,7 @@
         "Address" : "1150 Brookside Ave A, Redlands, CA 92373",
         "phone" : "(909) 335-8181",
         "website" : "N/A",
-        "imageurl" : "jngarner20.github.io/wdd230/chamber/images/carolyns.jpg",
+        "imageurl" : "images/carolyns.jpg",
         "membership" : "Bronze membership"
     },
     {
