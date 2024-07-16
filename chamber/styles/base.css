@@ -80,6 +80,13 @@ main {
     margin-top:40px;
 }
 
+.eventcard {
+    padding-bottom:15px;
+}
+#currentevent3 {
+    padding-bottom:28px;
+}
+
 
 .bold {
     font-weight: bold;
@@ -231,6 +238,10 @@ label {
     grid-column:2/3;
     margin:5px 0px;
     font-size:.9em;
+}
+.membershiplabel {
+    font-size:.9em;
+    justify-content: center;
 }
 
 #submit:hover {

@@ -54,7 +54,7 @@
                     <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
                 </label>
                 <label for="phonenumber" id="phonenumberlabel">Phone Number:
-                    <input type="telephone" name="phonenumber" id="phonenumber" required >
+                    <input type="tel" name="phonenumber" id="phonenumber" required >
                 </label>
                 <label for="position" id="positionlabel">Position:
                     <input type="text" name="position" id="position"></label>
@@ -64,17 +64,20 @@
                 <label for="description" id="descriptionlabel">Business Description: 
                     <textarea name="description" id="description" cols="30" rows="5"></textarea>
                 </label>
-                <label for="membership" id="membershiplabel">Membership Level:
-                    <section id="membershipsection">
-                    <input type="radio" name="membership" class="membership" value="Non-Profit Membership"><p class="membershiptitle">Non-Profit Membership</p>
-                    <input type="radio" name="membership" class="membership" value="Bronze Membership"><p class="membershiptitle">Bronze Membership</p>
-                    <input type="radio" name="membership" class="membership" value="Silver Membership"><p class="membershiptitle">Silver Membership</p>
-                    <input type="radio" name="membership" class="membership" value="Gold Membership"><p class="membershiptitle">Gold Membership</p>
-                    </section>
-                </label>
-                <label for="timestamp">
+                <label for="membership" id="membershiplabel">Membership Level: </label>
+                <section id="membershipsection">
+                <input type="radio" name="membership" id="membership" class="membership" value="Non-Profit Membership">
+                <label for="membership" class="membershiplabel"> Non-Profit Membership</label>
+                <input type="radio" name="membership" id="membership1" class="membership" value="Bronze Membership"> 
+                <label for="membership1" class="membershiplabel">Bronze Membership</label>
+                <input type="radio" name="membership" id="membership2" class="membership" value="Silver Membership">
+                <label for="membership2" class="membershiplabel">Silver Membership</label>
+                <input type="radio" name="membership" id="membership3" class="membership" value="Gold Membership">
+                <label for="membership3" class="membershiplabel">Gold Membership</label>
+                </section>
+            
                     <input type="hidden" name="timestamp" id="timestamp">
-                </label>
+
                 <input type="submit" value="Send us your request!" id="submit">
             </div>
         </form>
