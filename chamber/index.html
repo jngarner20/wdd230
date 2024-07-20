@@ -57,29 +57,68 @@
                 <h2>Weather</h2>
                 <h3 id="weatherTitle">Current Weather:</h3>
                 <div id="weatherstring">
+                    <section id="weatherSection">
                     <img src="" alt="" id="weather-icon">
                     <p id="weathertemp"></p>
                     <p id="dash">-</p>
                     <p id="weatherdescription"></p>
+                    </section>
+
+                    <h3>3 Day Forecast:</h3>
+                    <section id="forecastSection">
+                        <div class="forecastBlocks" id="forecastblock1">
+                            <p class="day" id="day1"></p>
+                            <p class="temperature"id="forecast1"></p>
+                            <img src="" alt="" id="forecast-weather-icon-1" class="icon">
+                            <p class="weatherDescription" id="weatherDescription1"></p>
+                        </div>
+                    
+                        <div class="forecastBlocks" id="forecastblock2">
+                            <p class="day" id="day2"></p>
+                            <p class="temperature" id="forecast2"></p>
+                            <img src="" alt="" id="forecast-weather-icon-2" class="icon">
+                            <p class="weatherDescription" id="weatherDescription2"></p>
+                        </div>
+                    
+                        <div class="forecastBlocks" id="forecastblock3">
+                            <p class="day" id="day3"></p>
+                            <p class="temperature" id="forecast3"></p>
+                            <img src="" alt="" id="forecast-weather-icon-3" class="icon">
+                            <p class="weatherDescription" id="weatherDescription3"></p>
+                        </div>
+                    </section>
+                    <!-- <section id="forecastSection">
+                    <div class="forecastBlocks" id="forecastblock1">
+                    <p class="day"></p>
+                    <p id="forecast1"></p>
+                    <img src="" alt="" id="forecast-weather-icon-1">
+                    </div>
+
+                    <div class="forecastBlocks" id="forecastblock2">
+                    <p id="forecast2"></p>
+                    <img src="" alt="" id="forecast-weather-icon-2">
+                    </div>
+
+                    <div class="forecastBlocks" id="forecastblock3">
+                    <p id="forecast3"></p>
+                    <img src="" alt="" id="forecast-weather-icon-3">
+                    </div>
+                    </section> -->
                 </div>
             </div>
             <div id="spotlight">
                 <h2>Company Spotlight Advertisement</h2>
-                <h3>Esri</h3>
-                <div class="spotlightcard" id="spotlight1">
-                    <p>Esri is voted the Number 1 best company in Redlands. What is Esri? Esri is an international supplier of geographic information system software, web GIS and geodatabase management. What makes it so great? People love the location of the company and the surroundings of it. It makes a good location for customers and also for the employees. </p>
-                    </div>
-                <h3>Beaver Medical Group</h3>
-                <div class="spotlightcard" id="spotlight2">
-                    <p>Beaver Medical Group is rated the fourth best company in Redlands. They are also voted the best Urgent Care. People love this medical group so much because the staff is kind and diverse. They belive in delivering the highest quality patient care and service.</p>
-                    </div>
+                <h3 id="spotlightTitle"></h3>
+                <img src="" alt="" id="spotlightImg">
+                
         </div>
     </main>
     <footer>
         <p>&copy;2024 Jessica Garner Colorado</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <!-- <script src="scripts/getDates.js"></script> -->
     <script src="scripts/chamberWeather.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>

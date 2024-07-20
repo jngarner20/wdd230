@@ -36,4 +36,16 @@ p#message{
     opacity: 100%;
 }
 
+#forecastSection {
+    display:block;
+    grid-template-columns: 1fr;
+    width:100%;
+}
+.forecastBlocks {
+    margin-bottom:10px;
+}
+#weatherSection {
+    width:85%;
+}
+
 }

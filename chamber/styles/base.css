@@ -69,7 +69,7 @@ nav a:hover {
     color: white;
 }
 
-#weatherstring {
+#weatherSection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width:30%;
@@ -376,4 +376,35 @@ label {
 }
 #events section, #attractions section {
     margin-bottom:50px;
+}
+
+/* 3-day forecast */
+
+#forecastSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+    margin-top:20px;
+    width:90%;
+}
+.day {
+    font-weight: bold;
+}
+
+.forecastBlocks {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    background-color: var(--light-blue);
+    padding: 10px;
+    border-radius: 5px;
+}
+.day {
+    grid-column: 1/4;
+}
+
+#weatherstring {
+    margin-bottom:30px;
 }
