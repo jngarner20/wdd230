@@ -31,7 +31,12 @@
             <li><a href="https://jngarner20.github.io/wdd230/chamber/join.html">Join Us</a></li>
         </ul>
     </nav>
+    <section id="banner">
+        <p>Join us for our Chamber of Commerce meet and greet on Wednesday at 7pm</p>
+        <button id="close"></button>
+    </section>
     <main>
+        
         <div id="currentevents">
             <h2>Current Events</h2>
             <section class="eventcard" id="currentevent1">
@@ -58,7 +63,7 @@
                 <h3 id="weatherTitle">Current Weather:</h3>
                 <div id="weatherstring">
                     <section id="weatherSection">
-                    <img src="" alt="" id="weather-icon">
+                    <img id="weather-icon">
                     <p id="weathertemp"></p>
                     <p id="dash">-</p>
                     <p id="weatherdescription"></p>
@@ -68,22 +73,22 @@
                     <section id="forecastSection">
                         <div class="forecastBlocks" id="forecastblock1">
                             <p class="day" id="day1"></p>
-                            <p class="temperature"id="forecast1"></p>
-                            <img src="" alt="" id="forecast-weather-icon-1" class="icon">
+                            <p class="temperature" id="forecast1"></p>
+                            <img id="forecast-weather-icon-1" class="icon">
                             <p class="weatherDescription" id="weatherDescription1"></p>
                         </div>
                     
                         <div class="forecastBlocks" id="forecastblock2">
                             <p class="day" id="day2"></p>
                             <p class="temperature" id="forecast2"></p>
-                            <img src="" alt="" id="forecast-weather-icon-2" class="icon">
+                            <img id="forecast-weather-icon-2" class="icon">
                             <p class="weatherDescription" id="weatherDescription2"></p>
                         </div>
                     
                         <div class="forecastBlocks" id="forecastblock3">
                             <p class="day" id="day3"></p>
                             <p class="temperature" id="forecast3"></p>
-                            <img src="" alt="" id="forecast-weather-icon-3" class="icon">
+                            <img  id="forecast-weather-icon-3" class="icon">
                             <p class="weatherDescription" id="weatherDescription3"></p>
                         </div>
                     </section>
@@ -109,7 +114,7 @@
             <div id="spotlight">
                 <h2>Company Spotlight Advertisement</h2>
                 <h3 id="spotlightTitle"></h3>
-                <img src="" alt="" id="spotlightImg">
+                <img id="spotlightImg">
                 
         </div>
     </main>
@@ -120,5 +125,6 @@
     <!-- <script src="scripts/getDates.js"></script> -->
     <script src="scripts/chamberWeather.js"></script>
     <script src="scripts/spotlight.js"></script>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>

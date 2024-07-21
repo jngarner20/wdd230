@@ -408,3 +408,54 @@ label {
 #weatherstring {
     margin-bottom:30px;
 }
+
+
+
+/* spotlight */
+
+#spotlight {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin:auto;
+    text-align: center;
+}
+
+
+/* banner */
+
+#banner {
+    display:flex;
+    text-align: center;
+    width:auto;
+    margin: auto;
+    color: black;
+    background-color: var(--light-blue);
+    padding-left: 30px;
+    padding-right:30px;
+    height:80px;
+}
+#banner p {
+    margin:auto;
+    align-items: left;
+    margin-left:0px;
+    font-size: 1.3em;
+}
+#close::after {
+    content: "✖";
+    display:flex;
+}
+#close:hover {
+    color: var(--main-pink);
+}
+
+.open a {
+    display: block;
+}
+
+#close {
+    border: none;
+    cursor: pointer;
+    background: none;
+    align-items: right;
+    font-size:1.1em;
+}

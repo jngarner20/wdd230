@@ -34,7 +34,7 @@ const displayMembers = (company) => {
     card.appendChild(image);
     card.appendChild(Address);
     card.appendChild(phone);
-    // card.appendChild(website);
+    card.appendChild(website);
     card.appendChild(membership);
 
     directory.appendChild(card);

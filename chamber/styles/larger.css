@@ -25,15 +25,29 @@ p#message{
         height: 120px;
     }
     #chambergrid {
-        display:block;
+        display:grid;
         grid-template-columns: 1fr;
     }
+#directory.grid {
+    display: grid;
+    grid-template-columns:1fr;
+}
+form {
+    width:80%;
+}
+    
 #picturegrid img {
     width: 80%;
     margin-top:20px;
 }
+h3 {
+    font-size: .8em;
+}
 #picturegrid img:hover {
     opacity: 100%;
+}
+.list p {
+    font-size: .8em;
 }
 
 #forecastSection {
